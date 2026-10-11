@@ -21,10 +21,11 @@ classifiers = [
 accurate-counting = ["tiktoken>=0.7"]
 langgraph = ["langchain-core>=0.2"]
 dev = ["pytest>=8", "pytest-cov", "tiktoken", "openai>=1.0.0"]
+demo = ["streamlit>=1.30"]
 
 [project.urls]
-Homepage = "https://github.com/nikhilbahalkar/llm-token-lens"
-Issues = "https://github.com/nikhilbahalkar/llm-token-lens/issues"
+Homepage = "https://github.com/nikhil8725/TokenLens"
+Issues = "https://github.com/nikhil8725/TokenLens/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["token_lens"]
